@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bybreyholtz.heat",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.bybreyholtz.heat",
@@ -49,7 +53,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "cb29e111-4756-4c1c-943a-ab73fc76bdcb"
+        "projectId": "aea44f0c-043a-4d66-83b7-c85591237051"
       }
     },
     "owner": "bybreyholtz"
